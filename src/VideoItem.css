@@ -1,0 +1,55 @@
+/*.video img {
+  max-width:180px;
+  cursor:pointer;
+}
+
+.video {
+  display:flex;
+  max-width:400px; 
+}
+
+.video h5 {
+  cursor:pointer;
+}
+
+.iframe-video {
+  width:100%;
+  margin:10px;
+  height:500px;
+}
+
+.iframe-video iframe {
+  width:70%;
+  height:500px;
+}
+
+.search-for input{
+ padding:5px;
+ width:60%; 
+}
+
+.search-for button{
+  padding:7px;
+  background-color:lightblue;
+}
+*/
+
+.video-item {
+  display: flex !important;
+  align-items: center !important;
+  cursor: pointer;
+}
+
+.video-item.item img {
+  max-width: 180px;
+}
+
+.search-bar button {
+  padding: 4px;
+  background: lightblue;
+}
+
+.search-bar input {
+ padding:4px;
+ width:80%; 
+}
